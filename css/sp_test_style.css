@@ -33,7 +33,7 @@ header {
  width: 313px;
  padding-top: calc(28 / 375 * 100vw); 
  font-size: 32px;
- line-height: 53.5px; 
+ line-height: 1.5; 
 }
 @media screen and (max-width: 350px) {
  #main_visual > h2 {
@@ -90,7 +90,7 @@ header {
 }
 
 .explain {    
- line-height: 25px;
+ line-height: 1.66;
 }
 
 /* ABOUT */
@@ -105,6 +105,7 @@ header {
 #about_wrapper {
  width: 100%;
  flex-wrap: wrap-reverse;
+ margin-top: 10px;
 }
    
 #text-wrapper {
