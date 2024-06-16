@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+  <html lang="ja">
+    <head>
+        <title>coffee shop</title>
+        <meta name="description" content="coffee shopの紹介">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- noindexを記述 -->
+        <meta name=”robots” content=”noindex”>
+        <!-- リセットCSS -->
+        <link rel="stylesheet" href="css/destyle.css"> 
+        <!-- スタイルシート　-->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- スタイルシートsp　-->
+        <link rel="stylesheet" href="css/sp_test_style.css">       
+    </head>
+    
+
+    <body>        
+        <header>
+          <div>
+            <h1 id="shop_name">THE LITTLE CAFE</h1>
+          </div>          
+          <nav id="navi">           
+            <a id="navi_menu" href="index.html#menu">MENU</a>
+            <a id="navi_about" href="index.html#about">ABOUT</a>
+          </nav>
+        </header>
+
+        <main>
+          <section id="main_visual">            
+            <h2>お好みのブレンドをお手軽に</h2>
+            <div id="top-picture-wrap">  
+              <picture><!-- ピクタグを使用 -->
+                <source id="sp-pic" media="(max-width: 767px)" srcset="./images/FV-sp.jpg">
+                <img id="fv-pic" src="./images/FV.jpg" alt="">
+              </picture>
+            </div>
+          </section>
+
+          <section id="menu">
+           <div class="inner">
+            <h2>MENU</h2>
+            <!-- <h2>M<span class="border-span-menu">EN</span>U</h2> -->
+            <div id="menu_wrapper">
+              <div class="menu-list" id="menu_01">
+                <div class="picture-wrap">         
+                  <picture><!-- ピクタグを使用 -->
+                    <source media="(max-width: 767px)" srcset="./images/menu01-sp.jpg">
+                    <img class="menu-picture" src="./images/menu01.jpg" alt="top image">
+                  </picture>
+                </div>             
+                <div class="content">
+                  <p class="name">カフェラテ（ICE・HOT）</p>
+                  <p class="explain">お好みのブレンドコーヒーと<br>
+                  厳選したミルクのカフェラテ</p>
+                  <!-- ↑line-height: 25pxで行間調整 -->
+                </div>
+              </div>
+
+              <div class="menu-list" id="menu_02">
+                <div class="picture-wrap">              
+                 <picture><!-- ピクタグを使用 -->
+                  <source media="(max-width: 767px)" srcset="./images/menu02-sp.jpg">
+                  <img class="menu-picture"  src="./images/menu02.jpg" alt="top image">
+                </picture>
+                </div>          
+                <div class="content">
+                   <p class="name">コーヒー（ICE・HOT）</p>
+                   <p class="explain">お好みの味をブレンドした<br>
+                  コーヒー本来の味を味わえる</p>
+                  <!-- ↑line-height: 25pxで行間調整 -->
+                </div>
+              </div>
+
+              <div class="menu-list" id="menu_03">
+                <div class="picture-wrap">
+                <picture><!-- ピクタグを使用 -->
+                  <source media="(max-width: 767px)" srcset="./images/menu03-sp.jpg">
+                  <img  class="menu-picture" src="./images/menu03.jpg" alt="top image">
+                </picture>
+                </div>
+                
+                <div class="content">
+                   <p class="name">カップケーキ（各種）</p>
+                   <p class="explain">コーヒーのお供に<br>
+                   日替わり常時５種類</p>
+                   <!-- ↑line-height: 25pxで行間調整 -->
+                </div>
+              </div>          
+            </div>
+          </div> 
+          </section>
+          
+          <section id="about">
+            <div class="inner">
+              <h2>ABOUT</h2>
+              <div id="about_wrapper">
+                <div id="text-wrapper">
+                  <div id="concept">
+                    <p>老舗の味をテイクアウトで楽しめる<br>
+                    新しいカフェスタイル</p>
+                    <!-- ↑line-height: 33pxで行間調整 -->
+                  </div>
+                  <div id="detail">
+                    <p>知る人ぞ知る東京銀座の老舗カフェが提供する、移動販売
+                    のテイクアウトコーヒーです。<br>
+                    「いつもの」がお家でオフィスでお気軽に楽しめます。</p>
+                    <!-- ↑line-height: 33pxで行間調整 -->
+                  </div>
+                  <button>MORE</button>
+                  <!-- <button onclick="location.href=''">MORE</button> -->                   
+                </div>  
+                <div id="img-wrapper">                  
+                  <picture> <!-- ピクタグを使用 -->
+                    <source media="(max-width: 767px)" srcset="./images/about-sp.jpg">
+                    <img class="about-picture" src="./images/about.jpg" alt="">
+                  </picture>
+                </div>
+              </div>  
+            </div>         
+          </section>
+        </main>
+        <footer>
+          <p>&copy;Copyright0000 THE LITTLE CAFE</p>          
+        </footer>
+    </body>
+</html>
+
+

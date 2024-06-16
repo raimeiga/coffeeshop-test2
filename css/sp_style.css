@@ -1,0 +1,178 @@
+@media screen and (max-width: 767px) {
+/* min-width: 320px;まで */
+
+body { 
+ width: 100%;
+ background-color: #fff;    
+ font-family: "Hiragino Sans", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
+ color:#505050; 
+}
+
+header {
+ width: 100%;
+ height: 50px;
+ background-color: yellow;   
+ display: flex;
+ align-items: center;
+}
+
+#shop_name {   
+ padding: 0px 0 0 0;
+ margin: 0 0 0 17px; 
+ letter-spacing: 0.1px;
+ line-height: 33px;
+}
+
+#navi {
+ display: none;
+}
+ 
+/* main_visual */
+/* #main_visual {
+ position: relative;    
+ z-index: 10; 
+} */
+
+#main_visual > h2 {
+ position: absolute; 
+ width: 325px;
+ margin: 44px 27px 0px;
+ text-align: center;
+ font-family: "source-han-sans-vf", sans-serif;
+ font-variation-settings: "wght" 300;
+ letter-spacing : 0.1px;
+ line-height: 1.5;
+ font-size: 35px;    
+ z-index: 11;
+}
+
+/* #sp-pic {
+ width: 50px;
+} */
+
+/* MENU */
+#menu {
+  width: 100%;
+  padding-top: 0;
+  margin-top: 0px;
+  margin-bottom: 39px;
+}
+
+.inner {
+  max-width: 345px;
+  width: 100%;
+  padding-inline: 15px;
+  margin-inline: auto;  
+}
+
+   /* #menu > h2 {
+    width: 93px; 
+    font-size: 30px;
+    font-weight: 250;
+    line-height: 45px;
+    padding-top: 51px; 
+    margin: 0 auto;
+   } */
+   
+   #menu_wrapper {
+    width: 100%;
+    display: block;       
+    padding: 0;
+    margin-top: 36px;
+    margin-bottom: 50px;   
+   }
+
+   .picture-wrap {
+    width: 100%;
+    height: 250px;
+
+   }
+     
+   .content {
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: -8px;
+   }
+   
+   .name {
+    width: 100%;
+    margin-top: 22px;
+   }
+
+   .explain {
+    width: 100%;
+   }
+
+/* ABOUT */
+   #about {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.051);
+   }
+   #about_wrapper {
+    display: flex;
+    flex-wrap: wrap-reverse;
+   }   
+
+   #img-wrapper {
+    width: 100%;
+    height: 250px; 
+    margin: 44px auto 0;
+   }
+
+   #about-img-sp{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   #about-img {
+    display: none;
+   }
+
+   #text-wrapper {
+    width: 100%;
+    margin-top: 27px;
+   }
+
+   #concept {
+    width: 100%;
+    flex-wrap: wrap;  
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: -0.3px;    
+   }
+
+   #detail {
+    width: 100%;
+    flex-wrap: wrap;        
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.1em;    
+   }
+
+   #detail > p {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;  
+   }
+
+   #more-btn {
+    width: 315px;
+    height: 55px;
+    background-color: #505050;   
+    margin: 24px auto 60px;
+   }
+
+  footer {
+    width: 100%;
+  }
+
+  footer > p {
+    width: 100%;
+   font-size: 17px;
+   
+  }
+ 
+
+}

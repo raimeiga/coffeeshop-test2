@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+@media screen and (max-width: 767px) {
+/* min-width: 320px;まで */
+
+body {
+width: 100%;
+ background-color: #fff;    
+ font-family: "Hiragino Sans", "Meiryo", "Yu Gothic", "YuGothic", sans-serif;
+ font-weight: 250;  
+ color:#505050; 
+ letter-spacing: 0;
+}
+
+header {
+ width: 100%;
+ height: 50px;
+}
+
+#shop_name {
+ width: 200px; 
+ font-size: 20px;
+ padding: 14px 0 0 0;
+ margin: 1px 0 0 19px; 
+} 
+
+#navi {
+ display: none;
+}
+
+/* main_visual */
+#main_visual > h2 { 
+ width: 313px;
+ padding-top: calc(26 / 375 * 100vw); 
+ font-size: 32px;
+ line-height: 53.5px; 
+}
+@media screen and (max-width: 350px) {
+ #main_visual > h2 {
+  width: 290px;
+  font-size: 30px; 
+}
+}
+
+/* MENU */
+#menu {
+ width: 100%;
+}
+
+#inner {
+ max-width: 345px;
+ width: 100%;
+ display: block;
+ padding-inline: 15px;
+ margin-inline: auto;   
+}
+
+/* これがあると「MENU」が左寄りになるのはなぜ？ */
+/* .inner > h2 {
+ width: 80px; 
+} */
+
+/* .border-span-menu {
+ padding-bottom:7px;
+ margin-bottom: 30px;
+ display:inline-block;
+ border-bottom: solid 3px #505050;
+} */
+
+#menu_wrapper {
+ width: 100%;
+ display: block;
+ margin-top: 26px;
+ margin-bottom: 0px;
+}
+
+.menu-list {
+ margin-bottom: 24px;
+}
+
+.picture-wrap {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.content {
+<<<<<<< HEAD
+ width: 100%;
+ margin-top: 0px;
+}
+
+.name {
+ margin-top: 22px;
+=======
+   width: 100%;
+   margin-top: 0px;
+  }
+
+.name {
+  margin-top: 22px;
+  letter-spacing: 0.05px;
+}
+
+.explain {    
+ line-height: 25px;
+}
+
+/* ABOUT */
+#about {
+  padding-top: 56px;
+  padding-bottom: 47px;
+ }
+
+
+#about_wrapper {
+ width: 100%;
+ flex-wrap: wrap-reverse;
+<<<<<<< HEAD
+}
+   
+#text-wrapper {
+ width: 100%;
+ margin-top: 30px;
+}
+   
+#concept {
+ width:100%;
+ flex-wrap: wrap;
+ font-weight:400;  
+ font-size: 22px;
+}
+   
+#concept > p > br {
+ display: none;
+}
+
+=======
+ margin-top: 1px;
+}
+   
+/* #h2-with-padding {
+ width: 105px;
+ padding-top: 57px;
+} */
+
+#text-wrapper {
+ width: 100%;
+ margin-top: 30px;
+}
+   
+#concept {
+ width:100%;
+ flex-wrap: wrap;
+ font-weight:400;  
+ font-size: 22px;
+}
+   
+#concept > p > br {
+ display: none;
+}
+
+>>>>>>> 228dca77dce83ad7375adc241494a0ae64c5df0e
+#more-btn {
+ width: 100%;        
+}
+    
+#img-wrapper {
+ width: 100%;
+ margin-top: 30px; 
+}
+
+#detail > p {
+ letter-spacing: 0.3px;
+}
+
+#detail > p > br {
+ display: block;
+}
+
+footer > p {
+ width: 100%;        
+ font-size: 17px;
+ letter-spacing: 0.02px;
+}
+       
+>>>>>>> 228dca77dce83ad7375adc241494a0ae64c5df0e
+
+}
