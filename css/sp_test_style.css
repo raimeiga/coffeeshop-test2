@@ -20,8 +20,8 @@ header {
 #shop_name {
  width: 200px; 
  font-size: 20px;
- padding: 14px 0 0 0;
- margin: 1px 0 0 19px; 
+ padding: 3px 0 0 0;
+ margin: 0px 0 0 19px;
 } 
 
 #navi {
@@ -31,7 +31,7 @@ header {
 /* main_visual */
 #main_visual > h2 { 
  width: 313px;
- padding-top: calc(26 / 375 * 100vw); 
+ padding-top: calc(28 / 375 * 100vw); 
  font-size: 32px;
  line-height: 53.5px; 
 }
@@ -44,8 +44,9 @@ header {
 
 /* MENU */
 #menu {
- width: 100%;
- margin-top: 58px;    
+ width: 100%;  
+ padding-top: 52px;
+ margin-bottom: 39px;
 }
 
 #inner {
@@ -56,23 +57,22 @@ header {
  margin-inline: auto;   
 }
 
-.border-span-menu {
+/* .border-span-menu {
  padding-bottom:7px;
  margin-bottom: 30px;
  display:inline-block;
- border-bottom: solid 3px #505050;
- 
-}
+ border-bottom: solid 3px #505050; 
+} */
 
 #menu_wrapper {
  width: 100%;
  display: block;
- margin-top: 0px;
+ margin-top: 28px;
  margin-bottom: 0px;
 }
 
 .menu-list {
- margin-bottom: 24px;
+ margin-bottom: 22px;
 }
 
 .picture-wrap {
@@ -94,6 +94,14 @@ header {
 }
 
 /* ABOUT */
+
+#about {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.051);  
+  padding-top: 49px;
+  padding-bottom: 47px;
+ }
+
 #about_wrapper {
  width: 100%;
  flex-wrap: wrap-reverse;
@@ -121,10 +129,27 @@ header {
     
 #img-wrapper {
  width: 100%;
- margin-top: 30px; 
+ margin-top: 41px; 
 }
 
-#detail > p {
+/* #detail > p {
+} */
+
+button {
+  max-width: 345px;
+  width: 100%;
+  display: block;
+  padding-inline: 15px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+/* ホバー時のスタイル */
+button:hover {  
+  cursor: pointer;  /* カーソルを指マークに変更 */
+  color: #999999  ;
+  background-color: #fff; 
+  border: solid 0.5px #505050;  /*枠線　線の種類　太さ　色*/
 }
 
 #detail > p > br {
