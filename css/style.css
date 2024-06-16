@@ -23,7 +23,7 @@ header {
  line-height: 1.65;
 }
 
-header:hover {
+.hover-color:hover {
   color: #38A1DB; /* 文字色 */  
 }
 
